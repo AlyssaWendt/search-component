@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #06ac33;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
+    .navbar-brand {
+      h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+    }
+  
+    .navbar-search {
+      flex-grow: 1;
+      margin-left: 20px;
+    }
+  }  
+  

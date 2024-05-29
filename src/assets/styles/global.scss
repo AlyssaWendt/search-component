@@ -1,0 +1,30 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2b2b2cfc;
+    color: #333;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .App {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  main {
+    padding: 20px;
+  }  
+  
