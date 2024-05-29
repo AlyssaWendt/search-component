@@ -42,10 +42,14 @@ search-component/
 │   │   │   ├── Navbar.scss
 │   │   │   ├── index.ts
 │   │   ├── SearchComponent/
-│   │   │   ├── SearchInput.tsx
-│   │   │   ├── SearchInput.scss
-│   │   │   ├── SearchResults.tsx
-│   │   │   ├── SearchResults.scss
+│   │   │   ├── SearchInput/
+|   |   |        ├── SearchInput.tsx
+|   |   |        ├── SearchInput.scss
+|   |   |        ├── SearchInput.test.tsx
+│   │   │   ├── SearchResults/
+│   │   │        ├── SearchResults.tsx
+|   |   |        ├── SearchResults.scss
+|   |   |        ├── SearchResults.test.tsx
 │   │   │   ├── index.ts
 │   ├── hooks/
 │   │   ├── useDebounce.ts
@@ -53,7 +57,7 @@ search-component/
 │   ├── services/
 │   │   └── bookService.ts
 │   ├── utils/
-│   │   ├── helpers.ts
+│   │   └──helpers.ts
 │   ├── App.tsx
 │   ├── index.tsx
 │   ├── setupTests.ts
