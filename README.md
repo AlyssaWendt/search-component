@@ -90,10 +90,10 @@ npm start
 * <strong>Description</strong>: The navigation bar that contains the search bar and remains sticky at the top of the page.
 
 ### SearchComponent
-* <strong>File</strong>: `src/components/SearchComponent/SearchInput.tsx`
+* <strong>File</strong>: `src/components/SearchComponent/SeachInput/SearchInput.tsx`
 * <strong>Description</strong>: The SearchInput component is a controlled input field that allows users to enter their search query. It takes in the current search term and a function to update the search term as props. This component handles user input and updates the parent component's state accordingly
 
-* <strong>File</strong>: `src/components/SearchComponent/SearchResults.tsx`
+* <strong>File</strong>: `src/components/SearchComponent/SeachResults/SearchResults.tsx`
 * <strong>Description</strong>: The SearchResults component is responsible for displaying the search results. It takes in the list of books, the current page number, a function to update the page number, and the loading and error states as props. This component displays the search results in a list, handles pagination, and shows loading and error messages when necessary.
 
 ### Loader
