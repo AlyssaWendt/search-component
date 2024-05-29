@@ -1,4 +1,4 @@
-# Book Search App
+# Search Component Application
 
 A React application that allows users to search for books using the Open Library API. The search bar is integrated into a navigation bar that stays sticky at the top of the page. This project uses TypeScript, SCSS, and various modern React practices such as custom hooks and component-based architecture.
 
